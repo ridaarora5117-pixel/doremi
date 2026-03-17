@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  height: 100vh;
+
+  background: url("./Night background.png") no-repeat center center;
+  background-size: 800px 600px; /* adjust % to zoom in/out */
+  image-rendering: pixelated;
+}
