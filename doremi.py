@@ -10,9 +10,4 @@ def get_data():
 with open('data.json', 'r') as file:
     data = json.load(file)
 
-user_input = input("Select your mood: Happy / Sad : ")
-
-for item in data:
-    if item["Energy"] == user_input:
-        print(item["Song"])
         
